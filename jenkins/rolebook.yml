@@ -1,0 +1,6 @@
+- name: newplaybook
+  hosts: all
+  remote_user: mostafa
+  gather_facts: false
+  roles:
+    - web 

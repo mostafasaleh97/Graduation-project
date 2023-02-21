@@ -1,0 +1,10 @@
+- name: Copy files
+  copy:
+    src: "{{ item }}"
+    dest: $HOME
+  loop: "{{ file_names }}"
+  notify: 
+    - create_ns
+    
+    
+

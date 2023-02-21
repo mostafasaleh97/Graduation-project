@@ -1,0 +1,6 @@
+file_names:
+  - deployment.yaml
+  - service.yaml
+  - volume.yaml
+  - serviceAccount.yaml
+ 

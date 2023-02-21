@@ -1,0 +1,8 @@
+- name: create_ns
+  command: kubectl create ns devops-tool 
+  notify: deploy
+
+
+- name: deploy 
+  command: kubectl apply -f . 
+  
